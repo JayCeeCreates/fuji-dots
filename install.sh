@@ -28,7 +28,7 @@ if [[ $EUID -ne 0 ]]; then
 	sudo cp -v "other files/monogram_extended.ttf" /usr/share/fonts/
 	sudo cp -v "other files/slock@.service" /etc/systemd/system/
 
-	cp -rv DWM/{.config,.icons,.themes,"other files/"{.fehbg,.p10k.zsh,.xinitrc,.zshrc}} $HOME/
+	cp -rv {.config,.icons,.themes,"other files/"{.fehbg,.p10k.zsh,.xinitrc,.zshrc}} $HOME/
 	cp -v "other files/bg.jpg" $HOME/Pictures/
 
 	echo "Finishing touches..."
