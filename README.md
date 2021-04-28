@@ -17,3 +17,5 @@ So far, I only tested it on Arch Linux. Hit me up with a PR if you know how to i
 Execute the following command:
 
 ```./install.sh```
+
+Firefox CSS needs to be copy-pasted manually.
