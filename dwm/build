@@ -1,0 +1,5 @@
+#! /bin/bash
+
+sudo cp -r touchpad-toggle /usr/bin/
+sudo make install clean
+rm -f config.h
